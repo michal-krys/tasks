@@ -12,7 +12,7 @@ public class CreatedTrelloCard {
     private String id;
 
     @JsonProperty("badges")
-    private TrelloBadgesDto badges;
+    private Badges badges;
 
     /*
     @JsonProperty("name")
